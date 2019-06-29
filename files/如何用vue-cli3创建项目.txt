@@ -1,4 +1,4 @@
-# 如何用vue-cli（3.8.4）创建项目
+# 如何用vue-cli3（3.8.4）创建项目
 
   安装vue-cli：
     cnpm install -g @vue/cli
