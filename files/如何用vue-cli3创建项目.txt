@@ -1,0 +1,23 @@
+# 如何用vue-cli（3.8.4）创建项目
+
+  安装vue-cli：
+    cnpm install -g @vue/cli
+  查看vue-cli版本：
+    vue -V
+  用vue-cli快速创建一个项目：
+    vue create vuex
+    (use default setting)
+  开发运行：
+    npm run serve
+  打包：
+    npm run build
+  发现打包后的index.html中引入的js和css资源的路径不对，需要配置：
+    a.在项目根目录vuex下创建文件vue.config.js
+    b.在vue.config.js文件内容如下：
+      // - - - start - - -
+      module.exports = {
+        publicPath: './'
+      }
+      // - - - end - - -
+    c.重新打包，则发现问题已解决
+

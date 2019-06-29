@@ -1,0 +1,11 @@
+# 如何安装vuex
+  安装：
+    npm install vuex --save
+  使用：
+    在main.js文件中,新增如下代码：
+      // - - - start - - -
+      import Vue from 'vue'
+      import Vuex from 'vuex'
+
+      Vue.use(Vuex)
+      // - - - end - - -
